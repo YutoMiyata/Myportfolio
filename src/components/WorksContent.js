@@ -9,7 +9,8 @@ const WorksContent = () => {
     language:['react,','redux'],
     ingenuity:'頑張った',
     url:'https://master.d1ifpyx30908pf.amplifyapp.com',
-    github:'https://github.com/YutoMiyata/to-do-app-using-react',
+    // github:'https://github.com/YutoMiyata/to-do-app-using-react',
+    github:'https://google.com',
     }
   ]
   return (
