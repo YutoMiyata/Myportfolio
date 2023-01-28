@@ -1,0 +1,52 @@
+.titleBlock {
+    margin-bottom: 50px;
+}
+
+.myprofileBlock {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.myprofileImg {
+    flex: 0.5;
+    text-align: center;
+
+}
+
+.myProfileContent {
+    flex: 0.5;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    border-radius: 20px;
+}
+
+.myProfileContentFlex {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.myProfileItem {
+    flex: 0.2;
+    text-align: right;
+    margin: 20px 0;
+    
+}
+
+
+.myProfileContent {
+    flex: 0.8;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+}

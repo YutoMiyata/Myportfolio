@@ -1,0 +1,23 @@
+.profileProgramingBlock {
+    background-color: rgb(183, 181, 181);
+    border-radius: 40px;
+    padding: 50px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.studyingBlock {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.frontEndBlock {
+    flex: 0.5;
+}
+
+.backEndBlock {
+    flex: 0.5;
+}

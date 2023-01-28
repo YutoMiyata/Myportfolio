@@ -1,0 +1,44 @@
+.worksBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 209, 209);
+    border-radius: 40px;
+    min-height: 70vh;
+}
+
+.worksPhoto  {
+    flex: 0.5;
+    text-align: center;
+
+}
+
+.worksContent {
+    flex: 0.5;
+}
+
+.worksContentFlex {
+    display: flex;
+}
+
+
+.worksContentFlex_title {
+    flex: 0.3;
+}
+
+.worksContentFlex_content {
+    flex: 0.7;
+}
+
+.workPhotoImg {
+    border-radius: 0;
+}
+
+.worksContent h3 {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
