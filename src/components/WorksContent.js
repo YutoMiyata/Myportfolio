@@ -1,10 +1,10 @@
 import React from 'react'
 import "./WorksContent.css";
-import react_to_do_photo from "../images_portfolio/react_to_do_photo.png";
+import cafe_to_do_react from "../images_portfolio/cafe-to-do-react.png";
 
 const WorksContent = () => {
   const works = [
-    {imgUrl:react_to_do_photo,
+    {imgUrl:cafe_to_do_react,
     theme:'カフェTODOシステム',
     language:['react'],
     ingenuity:'useStateの使用と、UIにこだわった!',
@@ -34,7 +34,7 @@ const WorksContent = () => {
         )
       })}
       <div className='urlButton'>
-        <button><a href='https://master.d1ifpyx30908pf.amplifyapp.com'>Url Button</a></button>
+        <button><a href='https://master.d5fxi2qll26xm.amplifyapp.com/'>Url Button</a></button>
       </div>
 
     </div>
