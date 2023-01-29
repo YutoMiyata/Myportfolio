@@ -5,9 +5,9 @@ import react_to_do_photo from "../images_portfolio/react_to_do_photo.png";
 const WorksContent = () => {
   const works = [
     {imgUrl:react_to_do_photo,
-    theme:'reactredux',
-    language:['react,','redux'],
-    ingenuity:'頑張った',
+    theme:'カフェTODOシステム',
+    language:['react'],
+    ingenuity:'useStateの使用と、UIにこだわった!',
     }
   ]
   return (

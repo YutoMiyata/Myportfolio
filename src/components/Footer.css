@@ -1,15 +1,26 @@
 .footerBlock {
     background-color: black;
     width: 100%;
-    height:15vh;
+    height:18vh;
     margin-top: 60px;
     color: white;
     text-align: center;
+
+}
+
+.footerFlex {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .footerBlock p {
     padding-top: 20px;
+}
+
+.GitHubBlock {
+    color: white;
+    padding: 0;
+    margin: 0;
 }
