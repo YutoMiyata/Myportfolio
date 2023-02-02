@@ -25,13 +25,21 @@
     display: flex;
 }
 
+/* table */
+.worksTable {
+    font-size: 20px;
+    text-align: center;
+    border-spacing: 20px;
 
-.worksContentFlex_title {
-    flex: 0.3;
 }
 
-.worksContentFlex_content {
-    flex: 0.7;
+.tableTitle {
+    width: 150px;
+    font-size: 25px;
+}
+.tableContent {
+    width: 300px;
+    font-size: 25px;
 }
 
 .workPhotoImg {
@@ -51,4 +59,18 @@
 a {
     text-decoration: none;
     color: white;
+}
+
+@media(max-width:420px) {
+    .worksBlock {
+        display: block;
+    }
+    .tableTitle {
+        width: 150px;
+        font-size: 15px;
+    }
+    .tableContent {
+        width: 300px;
+        font-size: 15px;
+    }
 }

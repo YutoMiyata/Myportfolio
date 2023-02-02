@@ -22,20 +22,24 @@ const Profile = () => {
     
             <div className = 'myProfileContent'>
                 <h2>自己紹介</h2>
-                <div className='myProfileContentFlex'>
-                    <div className='myProfileItem'>
-                        <p>名前:</p>
-                        <p>フリガナ:</p>
-                        <p>年齢:</p>
-                        <p>大学名:</p>
-                    </div>
-                    <div className='myProfileContent'>
-                        <p>宮田 優人</p>
-                        <p>ミヤタ ユウト</p>
-                        <p>22歳</p>
-                        <p>法政大学スポーツ健康学部スポーツ健康学科</p>
-                    </div>
-                </div>
+                <table className='profileTable'>
+                    <tr>
+                        <th className='profileTitle'>名前</th>
+                        <th className='profileContent'>宮田優人</th>
+                    </tr>
+                    <tr>
+                        <td className='profileTitle'>フリガナ</td>
+                        <td className='profileContent'>ミヤタ ユウト</td>
+                    </tr>
+                    <tr>
+                        <td className='profileTitle'>年齢</td>
+                        <td className='profileContent'>22</td>
+                    </tr>
+                    <tr>
+                        <td className='profileTitle'>大学名</td>
+                        <td className='profileContent'> 法政大学スポーツ健康学部</td>
+                    </tr>
+                </table>
             </div>
         </div>
 

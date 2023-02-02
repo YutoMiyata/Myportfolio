@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 
 const TableOfContents = () => {
   return (
-    <>
-    <h1>My Info</h1>
+    <div className='tableOfContent'>
+        <h1>My Info</h1>
         <div className='baseComponents'>
             <div className='profileBlock'>
                 <div className='profileComponents'>
@@ -25,7 +25,7 @@ const TableOfContents = () => {
                 <Link to='/works'><button>next</button></Link>
             </div>
         </div>
-    </>
+    </div>
 
   )
 }

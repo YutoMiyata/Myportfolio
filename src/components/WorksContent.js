@@ -19,16 +19,21 @@ const WorksContent = () => {
                 <img src={work.imgUrl} className = "workPhotoImg"/>
               </div>
               <div className='worksContent worksContentFlex'>
-                  <div className='worksContentFlex_title'>
-                    <h3>テーマ</h3>
-                    <h3>使用言語</h3>
-                    <h3>工夫点</h3>
-                  </div>
-                  <div className='worksContentFlex_content'>
-                    <h3>{work.theme}</h3>
-                    <h3>{work.language}</h3>
-                    <h3>{work.ingenuity}</h3>
-                  </div>
+                    <table className='worksTable'>
+                      <tr>
+                        <th className='tableTitle'>テーマ</th>
+                        <th className='tableContent'>{work.theme}</th>
+                      </tr>
+                      <tr>
+                        <td className='tableTitle'>使用言語</td>
+                        <td className='tableContent'>{work.language}</td>
+                      </tr>
+                      <tr>
+                        <td className='tableTitle'> 工夫点</td>
+                        <td className='tableContent'>{work.ingenuity}</td>
+                      </tr>                     
+                    </table>
+                  
               </div>
             </div>     
         )

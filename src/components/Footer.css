@@ -1,7 +1,7 @@
 .footerBlock {
     background-color: black;
     width: 100%;
-    height:18vh;
+    height:20vh;
     margin-top: 60px;
     color: white;
     text-align: center;
@@ -23,4 +23,13 @@
     color: white;
     padding: 0;
     margin: 0;
+}
+
+
+@media (max-width:430px) {
+    .footerBlock {
+        height:25vh;
+
+    
+    }
 }

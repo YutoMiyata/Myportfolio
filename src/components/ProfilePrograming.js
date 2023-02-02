@@ -9,11 +9,13 @@ const ProfilePrograming = () => {
         <h2>プログラミング学習</h2>
         <div className='studyingBlock'>
             <div className='frontEndBlock'>
+                <h3>フロントエンド</h3>
                 {frontEndLang.map((front) => {
                     return(<p>{front}</p>)
                 })}
             </div>
             <div className='backEndBlock'>
+                <h3>バックエンド</h3>
                 {backEndLang.map((back) => {
                     return(<p>{back}</p>)
                 })}
