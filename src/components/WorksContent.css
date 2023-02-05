@@ -1,13 +1,15 @@
-.worksComponents {
+/* .worksComponents {
+
+} */
+.worksBlock {
     background-color: rgb(209, 209, 209);
     border-radius: 40px;
     min-height: 70vh;
     padding: 40px;
-}
-.worksBlock {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 
 }
 
