@@ -2,22 +2,32 @@ import React from 'react'
 import "./WorksContent.css";
 import cafe_to_do_react from "../images_portfolio/cafe-to-do-react.png";
 import board_blog from "../images_portfolio/board-blog.png";
+import cafe_tasks_management from "../images_portfolio/cafe_tasks_management.png";
 
 
 const WorksContent = () => {
   const works = [
-    {imgUrl:cafe_to_do_react,
-    theme:'カフェTODOシステム',
-    language:['react'],
-    ingenuity:'useStateの使用と、UIにこだわった!',
-    url:'https://master.d5fxi2qll26xm.amplifyapp.com/',
+    {imgUrl:cafe_tasks_management,
+      theme:'タスク早見表',
+      language:['react、','django_restframework'],
+      ingenuity:'restframeworkで独自のapiを作成し、連結。AWS使用。',
+      url:'https://master.d3b7sjzflh5qmc.amplifyapp.com/',
     },
     {imgUrl:board_blog,
       theme:'一行掲示板',
       language:['Django'],
-      ingenuity:'CRUD、ログイン機能を実装',
+      ingenuity:'CRUD、ログイン機能を実装。AWS使用。',
       url:'http://3.114.224.232/blog/',
-      },
+    },
+    {imgUrl:cafe_to_do_react,
+      theme:'カフェTODOシステム',
+      language:['react'],
+      ingenuity:'useStateの使用と、UIにこだわった!',
+      url:'https://master.d5fxi2qll26xm.amplifyapp.com/',
+    },
+
+
+
   ]
 
   const goToUrl = (index) => {
@@ -43,7 +53,7 @@ const WorksContent = () => {
                       </tr>
                       <tr>
                         <td className='tableTitle'> 工夫点</td>
-                        <td className='tableContent'>{work.ingenuity}</td>
+                        <td className='tableContent ingenuityContent' >{work.ingenuity}</td>
                       </tr>                     
                     </table> 
               </div>
