@@ -67,6 +67,11 @@ a {
     color: white;
 }
 
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
 @media(max-width:420px) {
     .worksBlock {
         display: block;
@@ -78,5 +83,9 @@ a {
     .tableContent {
         width: 300px;
         font-size: 15px;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 }

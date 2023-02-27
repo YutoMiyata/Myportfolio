@@ -1,26 +1,16 @@
 import React from 'react'
 import "./WorksContent.css";
-import cafe_to_do_react from "../images_portfolio/cafe-to-do-react.png";
-import cafe_tasks_management from "../images_portfolio/cafe_tasks_management.png";
+import homework_management from "../images_portfolio/homework_management_laravel.png";
 
 
-const WorksContent = () => {
+const WorksContentLocal = () => {
   const works = [
-    {imgUrl:cafe_tasks_management,
-      theme:'タスク早見表',
-      language:['react、','django_restframework'],
-      ingenuity:'restframeworkで独自のapiを作成し、連結。AWS使用。',
-      url:'https://master.d3b7sjzflh5qmc.amplifyapp.com/',
+    {imgUrl:homework_management,
+      theme:'宿題管理システム',
+      language:['laravel'],
+      ingenuity:'laravelでCRUD機能を実装。',
+      url:'https://github.com/YutoMiyata/homework_management_laravel',
     },
-    {imgUrl:cafe_to_do_react,
-      theme:'カフェTODOシステム',
-      language:['react'],
-      ingenuity:'useStateの使用と、UIにこだわった!',
-      url:'https://master.d5fxi2qll26xm.amplifyapp.com/',
-    },
-
-
-
   ]
 
   const goToUrl = (index) => {
@@ -28,7 +18,7 @@ const WorksContent = () => {
   }
   return (
     <div className='worksComponents'>
-      <h2>本番環境</h2>
+      <h2>開発(ローカル)環境</h2>
       {works.map((work,index) => {
         return (
             <div className='worksBlock'>
@@ -52,7 +42,7 @@ const WorksContent = () => {
                     </table> 
               </div>
               <div className='urlButton'>
-                  <button onClick={() => {goToUrl(index)}}>URL</button>
+                  <button onClick={() => {goToUrl(index)}}>GitHub</button>
               </div>
             </div>     
         )
@@ -63,4 +53,4 @@ const WorksContent = () => {
   )
 }
 
-export default WorksContent
+export default WorksContentLocal;

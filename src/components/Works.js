@@ -3,6 +3,7 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import WorksContent from './WorksContent';
 import "./Works.css";
 import Footer from './Footer';
+import WorksContentLocal from './WorksContentLocal';
 
 const Works = () => {
   return (
@@ -12,6 +13,7 @@ const Works = () => {
         <h1>WORKS</h1>
       </div>
       <WorksContent />
+      <WorksContentLocal />
       <Footer />
     </div>
   )
