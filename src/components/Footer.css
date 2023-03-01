@@ -1,13 +1,20 @@
-.footerBlock {
+footer {
     background-color: black;
     width: 100%;
     height:20vh;
     color: white;
     text-align: center;
-
+    position: relative;
 }
 
-.footerBlock p:hover,.footerBlock p a:hover {
+.footerBlock {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer p:hover,footer p a:hover {
     color: rgb(150, 150, 150);
 }
 
@@ -16,10 +23,11 @@
     align-items: center;
     justify-content: center;
     padding: 25px;
+    padding-top: 5px;
 }
 
 .footerFlex p {
-    margin: 10px 35px;
+    margin: 0px 35px;
 }
 
 
@@ -31,13 +39,15 @@
 
 
 @media (max-width:430px) {
-    .footerBlock {
+    footer {
         height:25vh;
         font-size: 15px;
         margin-top: 0px;
     }
     .footerFlex p {
-        margin: 10px 10px;
+        margin: 0px 10px;
     }
-    
+    .footerFlex {
+        padding-bottom: 25px;
+    }
 }
