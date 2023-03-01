@@ -1,6 +1,7 @@
-/* .worksComponents {
-
-} */
+.worksComponents {
+    margin-bottom: 100px;
+    width: 100%;
+}
 .worksBlock {
     background-color: rgb(209, 209, 209);
     border-radius: 40px;
@@ -9,18 +10,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-
+    margin: 40px auto;
+    width: 75%;
 }
 
 .worksPhoto  {
-    flex: 0.5;
+    flex: 0.4;
     text-align: center;
 
 }
 
 .worksContent {
-    flex: 0.5;
+    flex: 0.6;
 }
 
 .worksContentFlex {
@@ -72,20 +73,37 @@ h2 {
     padding: 10px;
 }
 
-@media(max-width:420px) {
+@media(max-width:420px)
+ {
     .worksBlock {
         display: block;
+        border-radius: 5px;
     }
+
+ 
     .tableTitle {
         width: 150px;
         font-size: 15px;
     }
     .tableContent {
-        width: 300px;
+        width: 100%;
         font-size: 15px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
+
+    table.worksTable th , table.worksTable td {
+        display: block;
+        text-align: left;
+    }
+
+
+
+    table.worksTable {
+        table-layout: fixed;
+        width: 100%;
+    }
+
 }

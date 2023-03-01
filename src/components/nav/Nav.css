@@ -1,0 +1,44 @@
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 30px;
+}
+
+nav div {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li {
+    margin-right: 30px;
+    font-size: 25px;
+    list-style: none;
+}
+
+nav ul li p:hover{
+    color: rgb(144, 144, 144);
+}
+
+.nav_img {
+    width: 150px;
+    height: 80px;
+}
+
+
+@media(max-width:545px) {
+    nav ul li {
+        font-size: 10px;
+        margin-right: 15px;
+    }
+    .nav_img {
+        width: 80px;
+        height: 40px;
+    }
+    
+}

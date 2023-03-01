@@ -2,22 +2,26 @@
     background-color: black;
     width: 100%;
     height:20vh;
-    margin-top: 60px;
     color: white;
     text-align: center;
 
+}
+
+.footerBlock p:hover,.footerBlock p a:hover {
+    color: rgb(150, 150, 150);
 }
 
 .footerFlex {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 25px;
 }
 
-.footerBlock p {
-    padding-top: 20px;
+.footerFlex p {
+    margin: 10px 35px;
 }
+
 
 .GitHubBlock {
     color: white;
@@ -29,7 +33,11 @@
 @media (max-width:430px) {
     .footerBlock {
         height:25vh;
-
-    
+        font-size: 15px;
+        margin-top: 0px;
     }
+    .footerFlex p {
+        margin: 10px 10px;
+    }
+    
 }

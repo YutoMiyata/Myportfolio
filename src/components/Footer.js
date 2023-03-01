@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <div className='footerBlock'>
       <div className='footerFlex'>
-        <Link to='/'><button>Home</button></Link>
-        <Link to='/profile'><button>Profile</button></Link>
-        <Link to='/works'><button>Works</button></Link>
+        <Link to='/'><p>Home</p></Link>
+        <Link to='/profile'><p>Profile</p></Link>
+        <Link to='/works'><p>Works</p></Link>
       </div>
       <div className='GitHubBlock'>
-        <button><a href='https://github.com/YutoMiyata'>GitHub</a></button>
+        <p><a href='https://github.com/YutoMiyata'>GitHub</a></p>
       </div>
     </div>
   )

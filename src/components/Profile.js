@@ -1,23 +1,25 @@
 import React from 'react'
 import PersonIcon from '@mui/icons-material/Person';
-import Myface from '../images/Myface.jpg'
 import "./Profile.css";
 import Footer from './Footer';
 import ProfilePrograming from './ProfilePrograming';
+import Nav from './nav/Nav';
+import myface from '../images/yutomiyata_face.png';
 
 
 const Profile = () => {
 
   return (
     <div>
+        <Nav />
         <div className='titleBlock'>
             <PersonIcon sx={{ fontSize: 70 }}/>
-            <h1>profile</h1>
+            <h1>PROFILE</h1>
         </div>
         
         <div className='myprofileBlock'>
             <div className='myprofileImg'>
-                <img src = {Myface} />
+                <img src = {myface} />
             </div>
     
             <div className = 'myProfileContent'>
@@ -33,7 +35,7 @@ const Profile = () => {
                     </tr>
                     <tr>
                         <td className='profileTitle'>年齢</td>
-                        <td className='profileContent'>22</td>
+                        <td className='profileContent'>22歳</td>
                     </tr>
                     <tr>
                         <td className='profileTitle'>大学名</td>

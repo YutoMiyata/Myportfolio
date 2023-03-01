@@ -9,7 +9,7 @@ const WorksContent = () => {
     {imgUrl:cafe_tasks_management,
       theme:'タスク早見表',
       language:['react、','django_restframework'],
-      ingenuity:'restframeworkで独自のapiを作成し、連結。AWS使用。',
+      ingenuity:'restframeworkで独自のapiを作成。reactと連結。AWS使用。',
       url:'https://master.d3b7sjzflh5qmc.amplifyapp.com/',
     },
     {imgUrl:cafe_to_do_react,
@@ -42,7 +42,7 @@ const WorksContent = () => {
                         <th className='tableContent'>{work.theme}</th>
                       </tr>
                       <tr>
-                        <td className='tableTitle'>使用言語</td>
+                        <td className='tableTitle'>言語</td>
                         <td className='tableContent'>{work.language}</td>
                       </tr>
                       <tr>

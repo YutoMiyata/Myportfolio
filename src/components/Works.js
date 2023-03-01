@@ -4,10 +4,12 @@ import WorksContent from './WorksContent';
 import "./Works.css";
 import Footer from './Footer';
 import WorksContentLocal from './WorksContentLocal';
+import Nav from './nav/Nav';
 
 const Works = () => {
   return (
     <div>
+      <Nav />
       <div className='titleBlock'>
         <LightbulbIcon sx={{ fontSize: 70 }}/>
         <h1>WORKS</h1>

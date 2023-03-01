@@ -70,12 +70,13 @@ button:hover {
 
 @media(max-width:430px) {
     .tableOfContent h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .baseComponents {
         display: block;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     /* profile */
@@ -95,6 +96,5 @@ button:hover {
     .baseWorksBlock h2 {
         font-size: 30px;
     }
-
 
 }
