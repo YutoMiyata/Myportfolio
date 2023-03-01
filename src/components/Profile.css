@@ -22,8 +22,8 @@ img {
 .myProfileContentBlock {
     background-color: rgb(198, 198, 198);
     border-radius: 20px;
-    flex: 0.5;
-    height: 40vh;
+    flex:0.5;
+    height: 50vh;
     text-align: center;
     position: relative;
 }
@@ -32,11 +32,15 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
+    width: 100%;
+}   
+
+
 
 
 .profileTable  {
     border-spacing: 10px;
+    width: 100%;
 }
 .profileTitle {
     width: 200px;
@@ -74,7 +78,9 @@ img {
         width: 70%;
     }
 
-
+    .profileTable {
+        width: 100%;
+    }
     .profileTable th,.profileTable td{
         font-size: 15px;
     }
