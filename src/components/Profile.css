@@ -70,9 +70,11 @@ img {
         width: 100%;
         margin: 30px auto 0px;
         border-radius: 5px;
+        height: 40vh;
     }
     .myProfileContentBlock h2 {
-        font-size: 15px;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
     img {
         width: 70%;
