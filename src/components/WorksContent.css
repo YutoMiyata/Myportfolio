@@ -32,8 +32,7 @@
 .worksTable {
     font-size: 20px;
     text-align: center;
-    border-spacing: 20px;
-
+    border-spacing: 40px;
 }
 
 .tableTitle {
@@ -53,15 +52,13 @@
     font-size: 30px;
 }
 
-.ingenuityContent{
-    font-size: 20px;
+.tableButtonBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.urlButton {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
+
 
 a {
     text-decoration: none;
@@ -71,6 +68,11 @@ a {
 h2 {
     text-align: center;
     padding: 10px;
+}
+
+button {
+    width: 90px;
+    height: 60px;
 }
 
 @media(max-width:420px)
@@ -84,6 +86,7 @@ h2 {
     .tableTitle {
         width: 150px;
         font-size: 15px;
+        margin-bottom: 5px;
     }
     .tableContent {
         width: 100%;
@@ -104,6 +107,12 @@ h2 {
     table.worksTable {
         table-layout: fixed;
         width: 100%;
+        border-spacing: 25px;
+        
     }
+    .tableButtonBlock {
+        display: flex;
+    }
+    
 
 }
