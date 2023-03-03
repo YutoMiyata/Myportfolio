@@ -9,13 +9,11 @@ const WorksContent = () => {
     {imgUrl:cafe_tasks_management,
       theme:'タスク早見表',
       language:['react、','django_restframework'],
-      ingenuity:'restframeworkで独自のapiを作成。reactと連結。AWS使用。',
       url:'https://master.d3b7sjzflh5qmc.amplifyapp.com/',
     },
     {imgUrl:cafe_to_do_react,
       theme:'カフェTODOシステム',
       language:['react'],
-      ingenuity:'useStateの使用と、UIにこだわった!',
       url:'https://master.d5fxi2qll26xm.amplifyapp.com/',
     },
 
@@ -46,13 +44,19 @@ const WorksContent = () => {
                         <td className='tableContent'>{work.language}</td>
                       </tr>
                       <tr>
-                        <td className='tableTitle'> 工夫点</td>
-                        <td className='tableContent ingenuityContent' >{work.ingenuity}</td>
-                      </tr>                     
+                        <td className='tableTitle'>その他</td>
+                        <td className='tableContent'>
+                          <div className='tableButtonBlock'>
+                            <div className='tableButton'>
+                              <button onClick={() => {goToUrl(index)}}>URL</button>
+                            </div>
+                            <div className='tableButton'>
+                              <button>詳細</button>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>                           
                     </table> 
-              </div>
-              <div className='urlButton'>
-                  <button onClick={() => {goToUrl(index)}}>URL</button>
               </div>
             </div>     
         )

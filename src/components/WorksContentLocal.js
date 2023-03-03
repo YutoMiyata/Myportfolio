@@ -8,7 +8,6 @@ const WorksContentLocal = () => {
     {imgUrl:homework_management,
       theme:'宿題管理システム',
       language:['laravel'],
-      ingenuity:'laravelでCRUD機能を実装。',
       url:'https://github.com/YutoMiyata/homework_management_laravel',
     },
   ]
@@ -34,15 +33,21 @@ const WorksContentLocal = () => {
                       <tr>
                         <td className='tableTitle'>使用言語</td>
                         <td className='tableContent'>{work.language}</td>
-                      </tr>
+                      </tr>      
                       <tr>
-                        <td className='tableTitle'> 工夫点</td>
-                        <td className='tableContent ingenuityContent' >{work.ingenuity}</td>
-                      </tr>                     
+                        <td className='tableTitle'>その他</td>
+                        <td className='tableContent'>
+                          <div className='tableButtonBlock'>
+                            <div className='tableButton'>
+                              <button onClick={() => {goToUrl(index)}}>GitHub</button>
+                            </div>
+                            <div className='tableButton'>
+                              <button>詳細</button>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>               
                     </table> 
-              </div>
-              <div className='urlButton'>
-                  <button onClick={() => {goToUrl(index)}}>GitHub</button>
               </div>
             </div>     
         )
