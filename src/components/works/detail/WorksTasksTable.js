@@ -50,17 +50,20 @@ const WorksTasksTable = () => {
         </div>
 
         <h2>その他</h2>
-        <div className='worksTableOthersBlock'>
-            <div className='worksTableOthers'>
-                <p>本番環境はこちら</p>
-                <p className='worksTableOthersArror'>↓↓</p>
-                <button>URL</button>
+        <div className='worksTableOthersBlock othersRelative'>
+            <div className='othersAbsolute'>
+                <div className='worksTableOthers'>
+                    <p>本番環境はこちら</p>
+                    <p className='worksTableOthersArror'>↓↓</p>
+                    <button>URL</button>
+                </div>
+                <div className='worksTableOthers others_django_api'>
+                    <p>DjangoRestFrameworkのAPIはこちら</p>
+                    <p className='worksTableOthersArror'>↓↓</p>
+                    <button>URL</button>
+                </div>
             </div>
-            <div className='worksTableOthers others_django_api'>
-                <p>DjangoRestFrameworkのAPIはこちら</p>
-                <p className='worksTableOthersArror'>↓↓</p>
-                <button>URL</button>
-            </div>
+
         </div>
       <Footer />
     </div>

@@ -83,6 +83,17 @@ h1 {
     padding: 20px 0 ;
 }
 
+.othersRelative {
+    position: relative;
+}
+
+.othersAbsolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
 
 @media(max-width:420px) {
 
@@ -122,7 +133,7 @@ h1 {
     .taskTableFeaturesContent,
     .worksTableOthersBlock {
         border-radius: 5px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .worksTableOthersArror {
