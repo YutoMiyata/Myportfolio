@@ -71,7 +71,7 @@ h2 {
 }
 
 button {
-    width: 90px;
+    min-width: 90px;
     height: 60px;
 }
 

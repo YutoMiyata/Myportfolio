@@ -59,7 +59,7 @@ const WorksTasksTable = () => {
             <div className='worksTableOthers others_django_api'>
                 <p>DjangoRestFrameworkのAPIはこちら</p>
                 <p className='worksTableOthersArror'>↓↓</p>
-                <button>URL(api)</button>
+                <button>URL</button>
             </div>
         </div>
       <Footer />
