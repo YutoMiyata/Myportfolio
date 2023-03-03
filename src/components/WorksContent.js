@@ -2,6 +2,7 @@ import React from 'react'
 import "./WorksContent.css";
 import cafe_to_do_react from "../images_portfolio/cafe-to-do-react.png";
 import cafe_tasks_management from "../images_portfolio/cafe_tasks_management.png";
+import { Link } from 'react-router-dom';
 
 
 const WorksContent = () => {
@@ -10,15 +11,14 @@ const WorksContent = () => {
       theme:'タスク早見表',
       language:['react、','django_restframework'],
       url:'https://master.d3b7sjzflh5qmc.amplifyapp.com/',
+      link:'/works/tasks_table',
     },
     {imgUrl:cafe_to_do_react,
       theme:'カフェTODOシステム',
       language:['react'],
       url:'https://master.d5fxi2qll26xm.amplifyapp.com/',
+      link:'/works/cafe_to_do'
     },
-
-
-
   ]
 
   const goToUrl = (index) => {
@@ -51,7 +51,7 @@ const WorksContent = () => {
                               <button onClick={() => {goToUrl(index)}}>URL</button>
                             </div>
                             <div className='tableButton'>
-                              <button>詳細</button>
+                              <Link to={work.link}><button>詳細</button></Link>                  
                             </div>
                           </div>
                         </td>

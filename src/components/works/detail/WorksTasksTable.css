@@ -1,0 +1,135 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.taskTableImg {
+    text-align: center;
+    margin: 60px 0 ;
+}
+
+.taskTableImg img{
+    width: 75%;
+    border-radius: 10px;
+}
+
+.taskTabletechnique {
+    background-color: rgb(209, 209, 209);
+    border-radius: 40px;
+    min-height: 60vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 60px;
+    width: 75%;
+}
+
+
+/* 使用技術 */
+
+.taskTabletechniqueTable {
+    width: 100%;
+    border-spacing: 20px;
+    font-size: 25px;
+}
+
+
+
+/* 特徴 */
+
+.taskTableFeaturesContent {
+    background-color: rgb(209, 209, 209);
+    border-radius: 40px;
+    min-height: 40vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 60px;
+    width: 75%;
+}
+
+.taskTableFeaturesContent ul li {
+    list-style:disc;
+    margin: 40px 0 ;
+}
+
+
+/* その他 */
+.worksTableOthersBlock {
+    background-color: rgb(209, 209, 209);
+    border-radius: 40px;
+    min-height: 40vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 100px;
+    width: 75%;
+}
+
+.worksTableOthers {
+    flex: 0.5;
+    text-align: center;
+}
+
+.worksTableOthers p {
+    font-size: 25px;
+}
+
+.worksTableOthersArror {
+    padding: 20px 0 ;
+}
+
+
+@media(max-width:420px) {
+
+    .taskTableImg {
+        margin: 50px 0 ;
+    }
+
+    .taskTabletechnique th,.taskTabletechnique td {
+        display: block;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .taskTableFeaturesContent {
+        min-height: 30vh;
+    }
+
+    .taskTableFeaturesContent ul li {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+  
+    h2 {
+        font-size: 20px;
+    }  
+    .worksTableOthersBlock {
+        display: block;
+    }
+
+    .worksTableOthers p {
+        font-size: 15px;
+    }
+
+    .taskTabletechnique,
+    .taskTableFeaturesContent,
+    .worksTableOthersBlock {
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .worksTableOthersArror {
+        padding: 10px 0 ;
+    }
+
+    .others_django_api {
+        margin-top: 20px;
+    }
+} 

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./WorksContent.css";
 import homework_management from "../images_portfolio/homework_management_laravel.png";
+import { Link } from 'react-router-dom';
 
 
 const WorksContentLocal = () => {
@@ -9,6 +10,7 @@ const WorksContentLocal = () => {
       theme:'宿題管理システム',
       language:['laravel'],
       url:'https://github.com/YutoMiyata/homework_management_laravel',
+      link:'/works/homework_management',
     },
   ]
 
@@ -42,7 +44,7 @@ const WorksContentLocal = () => {
                               <button onClick={() => {goToUrl(index)}}>GitHub</button>
                             </div>
                             <div className='tableButton'>
-                              <button>詳細</button>
+                              <Link to={work.link}><button>詳細</button></Link>    
                             </div>
                           </div>
                         </td>
