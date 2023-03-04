@@ -17,7 +17,7 @@ h1 {
 .taskTabletechnique {
     background-color: rgb(209, 209, 209);
     border-radius: 40px;
-    min-height: 60vh;
+    height: 60vh;
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ h1 {
 .taskTableFeaturesContent {
     background-color: rgb(209, 209, 209);
     border-radius: 40px;
-    min-height: 40vh;
+    height: 40vh;
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@ h1 {
 .worksTableOthersBlock {
     background-color: rgb(209, 209, 209);
     border-radius: 40px;
-    min-height: 40vh;
+    height: 40vh;
     padding: 40px;
     margin: 40px auto 100px;
     width: 75%;
@@ -117,7 +117,7 @@ h1 {
 
     /* 特徴 */
     .taskTableFeaturesContent {
-        min-height: 30vh;
+        height: 30vh;
         padding: 20px 40px;
     
     }
