@@ -4,20 +4,20 @@ h1 {
 }
 
 
-.taskTableImg {
+.cafeToDoImg {
     text-align: center;
     margin: 60px 0 ;
 }
 
-.taskTableImg img{
+.cafeToDoImg img{
     width: 75%;
     border-radius: 10px;
 }
 
-.taskTabletechnique {
+.cafeToDotechnique {
     background-color: rgb(209, 209, 209);
     border-radius: 40px;
-    min-height: 60vh;
+    min-height: 30vh;
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ h1 {
 
 /* 使用技術 */
 
-.taskTabletechniqueTable {
+.cafeToDotechniqueTable {
     width: 100%;
     border-spacing: 20px;
     font-size: 25px;
@@ -39,7 +39,7 @@ h1 {
 
 /* 特徴 */
 
-.taskTableFeaturesContent {
+.cafeToDoFeaturesContent {
     background-color: rgb(209, 209, 209);
     border-radius: 40px;
     min-height: 40vh;
@@ -51,7 +51,7 @@ h1 {
     width: 75%;
 }
 
-.taskTableFeaturesContent ul li {
+.cafeToDoFeaturesContent ul li {
     list-style:disc;
     margin: 40px 0 ;
 }
@@ -101,28 +101,26 @@ h1 {
 
 @media(max-width:420px) {
 
-    .taskTableImg {
+    .cafeToDoImg {
         margin: 50px 0 ;
     }
 
-    /* 使用技術 */
-    .taskTabletechnique {
-        padding: 20px 40px;
-    }
-    .taskTabletechnique th,.taskTabletechnique td {
+    .cafeToDotechnique th,.cafeToDotechnique td {
         display: block;
         text-align: left;
         font-size: 15px;
     }
 
-    /* 特徴 */
-    .taskTableFeaturesContent {
-        min-height: 30vh;
+    .cafeToDotechnique {
         padding: 20px 40px;
-    
     }
 
-    .taskTableFeaturesContent ul li {
+    .cafeToDoFeaturesContent {
+        min-height: 30vh;
+        padding: 20px 40px;
+    }
+
+    .cafeToDoFeaturesContent ul li {
         font-size: 15px;
     }
     h1 {
@@ -135,14 +133,13 @@ h1 {
     .worksTableOthersFlex {
         display: block;
     }
-    
 
     .worksTableOthers p {
         font-size: 15px;
     }
 
-    .taskTabletechnique,
-    .taskTableFeaturesContent,
+    .cafeToDotechnique,
+    .cafeToDoFeaturesContent,
     .worksTableOthersBlock {
         border-radius: 5px;
         margin-top: 20px;

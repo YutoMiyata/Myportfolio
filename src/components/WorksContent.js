@@ -24,6 +24,7 @@ const WorksContent = () => {
   const goToUrl = (index) => {
     window.location.href = works[index].url;
   }
+  
   return (
     <div className='worksComponents'>
       <h2>本番環境</h2>
