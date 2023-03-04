@@ -4,20 +4,20 @@ h1 {
 }
 
 
-.taskTableImg {
+.homeworkManagementImg {
     text-align: center;
     margin: 60px 0 ;
 }
 
-.taskTableImg img{
+.homeworkManagementImg img{
     width: 75%;
     border-radius: 10px;
 }
 
-.taskTabletechnique {
+.homeworkManagementtechnique {
     background-color: rgb(209, 209, 209);
     border-radius: 40px;
-    min-height: 60vh;
+    min-height: 30vh;
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ h1 {
 
 /* 使用技術 */
 
-.taskTabletechniqueTable {
+.homeworkManagementtechniqueTable {
     width: 100%;
     border-spacing: 20px;
     font-size: 25px;
@@ -39,7 +39,7 @@ h1 {
 
 /* 特徴 */
 
-.taskTableFeaturesContent {
+.homeworkManagementFeaturesContent {
     background-color: rgb(209, 209, 209);
     border-radius: 40px;
     min-height: 40vh;
@@ -51,7 +51,7 @@ h1 {
     width: 75%;
 }
 
-.taskTableFeaturesContent ul li {
+.homeworkManagementFeaturesContent ul li {
     list-style:disc;
     margin: 40px 0 ;
 }
@@ -73,6 +73,7 @@ h1 {
     align-items: center;
     width: 100%;
 }
+
 
 .worksTableOthers {
     flex: 0.5;
@@ -101,28 +102,26 @@ h1 {
 
 @media(max-width:420px) {
 
-    .taskTableImg {
+    .homeworkManagementImg {
         margin: 50px 0 ;
     }
 
-    /* 使用技術 */
-    .taskTabletechnique {
-        padding: 20px 40px;
-    }
-    .taskTabletechnique th,.taskTabletechnique td {
+    .homeworkManagementtechnique th,.homeworkManagementtechnique td {
         display: block;
         text-align: left;
         font-size: 15px;
     }
 
-    /* 特徴 */
-    .taskTableFeaturesContent {
-        min-height: 30vh;
+    .homeworkManagementtechnique {
         padding: 20px 40px;
-    
     }
 
-    .taskTableFeaturesContent ul li {
+    .homeworkManagementFeaturesContent {
+        min-height: 30vh;
+        padding: 20px 40px;   
+    }
+
+    .homeworkManagementFeaturesContent ul li {
         font-size: 15px;
     }
     h1 {
@@ -135,14 +134,13 @@ h1 {
     .worksTableOthersFlex {
         display: block;
     }
-    
 
     .worksTableOthers p {
         font-size: 15px;
     }
 
-    .taskTabletechnique,
-    .taskTableFeaturesContent,
+    .homeworkManagementtechnique,
+    .homeworkManagementFeaturesContent,
     .worksTableOthersBlock {
         border-radius: 5px;
         margin-top: 20px;

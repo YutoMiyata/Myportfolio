@@ -3,6 +3,10 @@ import Footer from '../../Footer';
 import Nav from '../../nav/Nav';
 import cafe_tasks_management from "../../../images_portfolio/cafe_tasks_big.png";
 import "./WorksTasksTable.css";
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
+import { Link } from 'react-router-dom';
+
+
 const WorksTasksTable = () => {
   return (
     <div>
@@ -51,16 +55,20 @@ const WorksTasksTable = () => {
 
         <h2>その他</h2>
         <div className='worksTableOthersBlock othersRelative'>
-            <div className='othersAbsolute'>
+            <div className='worksTableOthersFlex othersAbsolute'>
                 <div className='worksTableOthers'>
                     <p>本番環境はこちら</p>
-                    <p className='worksTableOthersArror'>↓↓</p>
-                    <button>URL</button>
+                    <p className='worksTableOthersArror'><ArrowCircleDownIcon /></p>
+                    <Link to="https://master.d3b7sjzflh5qmc.amplifyapp.com/">
+                        <button>URL</button>
+                    </Link>
                 </div>
                 <div className='worksTableOthers others_django_api'>
                     <p>DjangoRestFrameworkのAPIはこちら</p>
-                    <p className='worksTableOthersArror'>↓↓</p>
-                    <button>URL</button>
+                    <p className='worksTableOthersArror'><ArrowCircleDownIcon /></p>
+                    <Link to="https://cafe-tasks-boards.com/api/tasks/">
+                        <button>URL</button>
+                    </Link>
                 </div>
             </div>
 
