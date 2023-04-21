@@ -12,7 +12,7 @@ const Works = () => {
       <Nav />
       <div className='titleBlock'>
         <LightbulbIcon sx={{ fontSize: 70 }}/>
-        <h1>WORKS</h1>
+        <h1>Works</h1>
       </div>
       <WorksContent />
       <WorksContentLocal />
