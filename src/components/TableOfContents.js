@@ -2,7 +2,8 @@ import React from 'react'
 import "./TableOfContents.css"
 import PersonIcon from '@mui/icons-material/Person';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
 
 const TableOfContents = () => {
   return (
