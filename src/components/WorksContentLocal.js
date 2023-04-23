@@ -2,6 +2,7 @@ import React from 'react'
 import "./WorksContent.css";
 import homework_management from "../images_portfolio/homework_management_laravel.png";
 import { Link } from 'react-router-dom';
+import ButtonRectangle from './ButtonRectangle';
 
 
 const WorksContentLocal = () => {
@@ -14,13 +15,11 @@ const WorksContentLocal = () => {
     },
   ]
 
-  const goToUrl = (index) => {
-    window.location.href = works[index].url;
-  }
+  
   return (
     <div className='worksComponents'>
       <h2>開発(ローカル)環境</h2>
-      {works.map((work,index) => {
+      {works.map((work) => {
         return (
             <div className='worksBlock'>
               <div className='worksPhoto'>
@@ -41,10 +40,10 @@ const WorksContentLocal = () => {
                         <td className='tableContent'>
                           <div className='tableButtonBlock'>
                             <div className='tableButton'>
-                              <button onClick={() => {goToUrl(index)}}>GitHub</button>
+                              <Link to={work.url}><ButtonRectangle message="URL"/></Link> 
                             </div>
                             <div className='tableButton'>
-                              <Link to={work.link}><button>詳細</button></Link>    
+                              <Link to={work.link}><ButtonRectangle message="詳細"/></Link>    
                             </div>
                           </div>
                         </td>
@@ -54,7 +53,6 @@ const WorksContentLocal = () => {
             </div>     
         )
       })}
-
     </div>
 
   )

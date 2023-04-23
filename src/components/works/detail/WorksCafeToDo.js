@@ -5,6 +5,7 @@ import "./WorksCafeToDo.css";
 import cafe_to_do_big from "../../../images_portfolio/cafe_to_do_big.jpg";
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-router-dom';
+import ButtonRectangle from '../../ButtonRectangle';
 
 
 const WorksCafeToDo = () => {
@@ -51,14 +52,14 @@ const WorksCafeToDo = () => {
                     <p>本番環境はこちら</p>
                     <p className='worksTableOthersArror'><ArrowCircleDownIcon /></p>
                     <Link to="https://master.d5fxi2qll26xm.amplifyapp.com/">
-                        <button>URL</button>
+                        <ButtonRectangle message="URL"/>
                     </Link>
                 </div>
                 <div className='worksTableOthers others_django_api'>
                     <p>GitHubはこちらから</p>
                     <p className='worksTableOthersArror'><ArrowCircleDownIcon /></p>
                     <Link to="https://github.com/YutoMiyata/cafe-to-do-react">
-                        <button>URL</button>
+                        <ButtonRectangle message="URL"/>
                     </Link>
                 </div>
             </div>
