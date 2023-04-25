@@ -3,6 +3,7 @@ import "./WorksContent.css";
 import homework_management from "../images_portfolio/homework_management_laravel.png";
 import { Link } from 'react-router-dom';
 import ButtonRectangle from './ButtonRectangle';
+import SubTitle from './SubTitle';
 
 
 const WorksContentLocal = () => {
@@ -18,7 +19,7 @@ const WorksContentLocal = () => {
   
   return (
     <div className='worksComponents'>
-      <h2>開発(ローカル)環境</h2>
+      <SubTitle name="開発(ローカル)環境"/>
       {works.map((work) => {
         return (
             <div className='worksBlock'>

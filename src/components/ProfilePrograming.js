@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ProfilePrograming.css";
+import SubTitle from './SubTitle';
 
 const ProfilePrograming = () => {
     const frontEndLang = ['HTML5','CSS3','JavaScript','React','Redux'];
@@ -8,7 +9,7 @@ const ProfilePrograming = () => {
     const others = ['DB(Postgres)','バージョン管理(Git、Github)','Linux(Ubuntu)'];
   return (
     <div className='profileProgramingBlock'>    
-        <h2>プログラミング学習</h2>
+        <SubTitle name="プログラミング学習" />
         <div className='studyingBlock'>
             <div className='frontEndBlock studyingBlockDetail'>
                 <h3>フロントエンド</h3>

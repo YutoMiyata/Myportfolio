@@ -6,6 +6,7 @@ import cafe_to_do_big from "../../../images_portfolio/cafe_to_do_big.jpg";
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-router-dom';
 import ButtonRectangle from '../../ButtonRectangle';
+import SubTitle from '../../SubTitle';
 
 
 const WorksCafeToDo = () => {
@@ -19,7 +20,7 @@ const WorksCafeToDo = () => {
             </div>
         </div>
         <div className='cafeToDotechniqueBlock'>
-            <h2>使用技術</h2>
+            <SubTitle name="使用技術" />
             <div className='cafeToDotechnique'>
                 <table className='cafeToDotechniqueTable'>
                     <tr>
@@ -34,7 +35,7 @@ const WorksCafeToDo = () => {
             </div>
         </div>
         <div className='cafeToDoFeaturesBlock'>
-            <h2>特徴</h2>
+            <SubTitle name="特徴" />
             <div className='cafeToDoFeaturesContent'>
                 <ul>
                     <li>ReactのuseStateを使用し、フロントエンドのみを実装</li>
@@ -45,7 +46,7 @@ const WorksCafeToDo = () => {
 
         </div>
 
-        <h2>その他</h2>
+        <SubTitle name="その他" />
         <div className='worksTableOthersBlock othersRelative'>
             <div className='worksTableOthersFlex othersAbsolute'>
                 <div className='worksTableOthers'>
