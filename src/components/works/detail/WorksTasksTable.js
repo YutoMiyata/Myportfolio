@@ -5,6 +5,7 @@ import cafe_tasks_management from "../../../images_portfolio/cafe_tasks_big.png"
 import "./WorksTasksTable.css";
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-router-dom';
+import ButtonRectangle from '../../ButtonRectangle';
 
 
 const WorksTasksTable = () => {
@@ -60,14 +61,14 @@ const WorksTasksTable = () => {
                     <p>本番環境はこちら</p>
                     <p className='worksTableOthersArror'><ArrowCircleDownIcon /></p>
                     <Link to="https://master.d3b7sjzflh5qmc.amplifyapp.com/">
-                        <button>URL</button>
+                        <ButtonRectangle message="URL"/>
                     </Link>
                 </div>
                 <div className='worksTableOthers others_django_api'>
                     <p>DjangoRestFrameworkのAPIはこちら</p>
                     <p className='worksTableOthersArror'><ArrowCircleDownIcon /></p>
                     <Link to="https://cafe-tasks-boards.com/api/tasks/">
-                        <button>URL</button>
+                        <ButtonRectangle message="URL"/>
                     </Link>
                 </div>
             </div>

@@ -5,6 +5,7 @@ import "./WorksHomeworkManegement.css";
 import homework_management_laravel_big from "../../../images_portfolio/homework_management_laravel_big.jpg";
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-router-dom';
+import ButtonRectangle from '../../ButtonRectangle';
 
 const WorksHomeworkManegement = () => {
   return (
@@ -50,7 +51,7 @@ const WorksHomeworkManegement = () => {
                       <p>GitHubのURLはこちら</p>
                       <p className='worksTableOthersArror'><ArrowCircleDownIcon /></p>
                       <Link to="https://github.com/YutoMiyata/homework_management_laravel">
-                        <button>URL</button>
+                        <ButtonRectangle  message="URL" />
                       </Link>
                   </div>
               </div>
