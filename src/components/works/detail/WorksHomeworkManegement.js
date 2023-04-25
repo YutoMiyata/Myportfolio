@@ -6,6 +6,7 @@ import homework_management_laravel_big from "../../../images_portfolio/homework_
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-router-dom';
 import ButtonRectangle from '../../ButtonRectangle';
+import SubTitle from '../../SubTitle';
 
 const WorksHomeworkManegement = () => {
   return (
@@ -18,7 +19,7 @@ const WorksHomeworkManegement = () => {
               </div>
           </div>
           <div className='homeworkManagementtechniqueBlock'>
-              <h2>使用技術</h2>
+              <SubTitle name="使用言語" />
               <div className='homeworkManagementtechnique'>
                   <table className='homeworkManagementtechniqueTable'>
                       <tr>
@@ -33,7 +34,7 @@ const WorksHomeworkManegement = () => {
               </div>
           </div>
           <div className='homeworkManagementFeaturesBlock'>
-              <h2>特徴</h2>
+              <SubTitle name="特徴" />
               <div className='homeworkManagementFeaturesContent'>
                   <ul>
                       <li>Laravelを主軸として開発</li>
@@ -44,7 +45,7 @@ const WorksHomeworkManegement = () => {
 
           </div>
 
-          <h2>その他</h2>
+          <SubTitle name="その他" />
           <div className='worksTableOthersBlock othersRelative'>
               <div className='worksTableOthersFlex othersAbsolute'>
                   <div className='worksTableOthers'>

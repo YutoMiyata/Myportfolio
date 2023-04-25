@@ -4,6 +4,7 @@ import cafe_to_do_react from "../images_portfolio/cafe-to-do-react.png";
 import cafe_tasks_management from "../images_portfolio/cafe_tasks_management.png";
 import { Link } from 'react-router-dom';
 import ButtonRectangle from './ButtonRectangle';
+import SubTitle from './SubTitle';
 
 
 const WorksContent = () => {
@@ -25,7 +26,7 @@ const WorksContent = () => {
   
   return (
     <div className='worksComponents'>
-      <h2>本番環境</h2>
+      <SubTitle name="本番環境"/>
       {works.map((work) => {
         return (
             <div className='worksBlock'>

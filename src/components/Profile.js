@@ -5,7 +5,9 @@ import Footer from './Footer';
 import ProfilePrograming from './ProfilePrograming';
 import Nav from './nav/Nav';
 import myface from '../images/yutomiyata_face.png';
+import SubTitle from './SubTitle';
 import MainTitle from './MainTitle';
+
 
 
 const Profile = () => {
@@ -22,7 +24,7 @@ const Profile = () => {
             
             <div className='myProfileContentBlock'>
                 <div className = 'myProfileContent'>
-                        <h2>自己紹介</h2>
+                        <SubTitle name="自己紹介"/>
                         <table className='profileTable'>
                                 <tr>
                                     <th className='profileTitle'>名前</th>
