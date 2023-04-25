@@ -5,15 +5,13 @@ import "./Works.css";
 import Footer from './Footer';
 import WorksContentLocal from './WorksContentLocal';
 import Nav from './nav/Nav';
+import MainTitle from './MainTitle';
 
 const Works = () => {
   return (
     <div>
       <Nav />
-      <div className='titleBlock'>
-        <LightbulbIcon sx={{ fontSize: 70 }}/>
-        <h1>Works</h1>
-      </div>
+      <MainTitle  MainTitle="PROFILE"  Icon={<LightbulbIcon sx={{ fontSize: 70 }}/>} />
       <WorksContent />
       <WorksContentLocal />
       <Footer />

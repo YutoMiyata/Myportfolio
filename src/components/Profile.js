@@ -5,6 +5,7 @@ import Footer from './Footer';
 import ProfilePrograming from './ProfilePrograming';
 import Nav from './nav/Nav';
 import myface from '../images/yutomiyata_face.png';
+import MainTitle from './MainTitle';
 
 
 const Profile = () => {
@@ -12,11 +13,8 @@ const Profile = () => {
   return (
     <div>
         <Nav />
-        <div className='titleBlock'>
-            <PersonIcon sx={{ fontSize: 70 }}/>
-            <h1>PROFILE</h1>
-        </div>
-        
+            <MainTitle  MainTitle="PROFILE"  Icon={<PersonIcon sx={{ fontSize: 70 }} />}/>
+       
         <div className='myprofileBlock'>
             <div className='myprofileImg'>
                 <img src = {myface} />
