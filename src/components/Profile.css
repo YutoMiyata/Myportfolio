@@ -20,7 +20,7 @@ img {
     background-color: rgb(198, 198, 198);
     border-radius: 20px;
     flex:0.5;
-    height: 50vh;
+    height: 40vh;
     text-align: center;
     position: relative;
 }
@@ -38,6 +38,7 @@ img {
 .profileTable  {
     border-spacing: 10px;
     width: 100%;
+    margin-top: 20px;
 }
 .profileTitle {
     width: 200px;
