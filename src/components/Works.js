@@ -11,7 +11,7 @@ const Works = () => {
   return (
     <div>
       <Nav />
-      <MainTitle  MainTitle="PROFILE"  Icon={<LightbulbIcon sx={{ fontSize: 70 }}/>} />
+      <MainTitle  MainTitle="WORKS"  Icon={<LightbulbIcon sx={{ fontSize: 70 }}/>} />
       <WorksContent />
       <WorksContentLocal />
       <Footer />

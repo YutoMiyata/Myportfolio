@@ -1,0 +1,28 @@
+.ButtonRectangleWide {
+    text-align: center;
+}
+
+.ButtonRectangleWide button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* Buttonの色 */
+
+
+.white {
+    background-color: white;
+}
+
+
+/* Buttonの色がhoverした時 */
+
+.white:hover{
+    background-color: rgb(255, 255, 255,0);
+    border: 2px solid white;
+    color: white;
+}
