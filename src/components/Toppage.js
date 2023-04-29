@@ -1,24 +1,27 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import myProfilephoto from "../images/MyPortfolio.jpg"
-import "./Base.css"
+import "./Toppage.css"
 import Footer from './Footer'
+import MyInfoEach from './MyInfoEach'
 import Nav from './nav/Nav'
-import TableOfContents from './TableOfContents'
+import MainTitle from './MainTitle'
+import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 
 
-const Base = () => {
+const Toppage = () => {
   return (
     <div>
         <Helmet>
           <title>yuto portfolio</title>
         </Helmet>
-        <Nav />
+        <Nav/>
         <img src={myProfilephoto} className='baseImg' />
-        <TableOfContents />
+        <MainTitle  MainTitle="My Info"  Icon={<ThumbUpAltIcon sx={{ fontSize: 70 }} />}/>
+        <MyInfoEach />
         <Footer />
     </div>
   )
 }
 
-export default Base
+export default Toppage;

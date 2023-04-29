@@ -15,8 +15,7 @@ const Profile = () => {
   return (
     <div>
         <Nav />
-            <MainTitle  MainTitle="PROFILE"  Icon={<PersonIcon sx={{ fontSize: 70 }} />}/>
-       
+        <MainTitle  MainTitle="PROFILE"  Icon={<PersonIcon sx={{ fontSize: 70 }} />}/>
         <div className='myprofileBlock'>
             <div className='myprofileImg'>
                 <img src = {myface} />
@@ -47,7 +46,6 @@ const Profile = () => {
             </div>
 
         </div>
-
         <ProfilePrograming />
         <Footer />
     </div>
