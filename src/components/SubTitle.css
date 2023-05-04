@@ -1,4 +1,6 @@
-
+.SubTitle h2 {
+    font-size: 40px;
+}
 @media(max-width:430px) {
     .SubTitle h2 {
         font-size: 25px;

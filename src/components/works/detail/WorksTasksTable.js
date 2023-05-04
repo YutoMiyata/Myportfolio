@@ -6,6 +6,7 @@ import "./WorksTasksTable.css";
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-router-dom';
 import ButtonRectangle from '../../ButtonRectangle';
+import SubTitle from '../../SubTitle';
 
 
 const WorksTasksTable = () => {
@@ -19,7 +20,7 @@ const WorksTasksTable = () => {
             </div>
         </div>
         <div className='taskTabletechniqueBlock'>
-            <h2>使用技術</h2>
+            <SubTitle name="使用技術"/>
             <div className='taskTabletechnique'>
                 <table className='taskTabletechniqueTable'>
                     <tr>
@@ -43,7 +44,7 @@ const WorksTasksTable = () => {
             </div>
         </div>
         <div className='taskTableFeaturesBlock'>
-            <h2>特徴</h2>
+            <SubTitle name="特徴"/>
             <div className='taskTableFeaturesContent'>
                 <ul>
                     <li>Django_restframeworkで独自のAPIを作成</li>
@@ -54,7 +55,7 @@ const WorksTasksTable = () => {
 
         </div>
 
-        <h2>その他</h2>
+        <SubTitle name="その他"/>
         <div className='worksTableOthersBlock othersRelative'>
             <div className='worksTableOthersFlex othersAbsolute'>
                 <div className='worksTableOthers'>
