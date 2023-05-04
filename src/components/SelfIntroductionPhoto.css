@@ -1,0 +1,16 @@
+img {
+    width: 75%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.SelfIntroductionPhoto {
+    flex: 0.5;
+    text-align: center;
+}
+
+@media(max-width:430px) {
+    .SelfIntroductionPhoto {
+        margin: 20px 0;
+    }
+}
