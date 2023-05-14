@@ -1,0 +1,41 @@
+.PrograingLearningEach {
+    background-color: rgb(93, 93, 93);
+    text-align: center;
+    height: 350px;
+    position: relative;
+    border-radius: 20px;
+    width: 40%;
+    margin: 20px;
+    flex-grow: 1;
+}
+
+.PrograingLearningEach h3 {
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.ProgramingLearningContent {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.ProgramingLearningContent p {
+    color: white;
+    font-size: 20px;
+}
+
+
+@media(max-width:430px) {
+    .PrograingLearningEach {
+        width: 80%;
+        margin: 30px;
+        height: 330px;
+    }
+    .PrograingLearningEach h3 {
+        font-size: 25px;
+    }
+}
