@@ -15,10 +15,10 @@ const SelfIntroductionContent = () => {
             </tr>
             <tr>
                 <td className='SelfIntroductionTitle'>年齢</td>
-                <td className='SelfIntroductionSentence'>22歳</td>
+                <td className='SelfIntroductionSentence'>23歳</td>
             </tr>
             <tr>
-                <td className='SelfIntroductionTitle'>大学名</td>
+                <td className='SelfIntroductionTitle'>出身大学</td>
                 <td className='SelfIntroductionSentence'> 法政大学スポーツ健康学部</td>
             </tr>
     </table>

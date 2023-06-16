@@ -5,7 +5,7 @@ import SubTitle from './SubTitle'
 
 const ProgramingLearning = () => {
     const frontEndLang = ['HTML5','CSS3','JavaScript','React','Redux'];
-    const backEndLang = ['Python','Django','Django_restframework','PHP','Laeravel'];
+    const backEndLang = ['Python','Django','Django_restframework','PHP','Laravel'];
     const awsItems = ['EC2','RDS','Route53','VPC'];
     const others = ['DB(Postgres)','バージョン管理(Git、Github)','Linux(Ubuntu)'];
 

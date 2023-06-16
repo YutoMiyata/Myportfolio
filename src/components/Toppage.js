@@ -1,12 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import myProfilephoto from "../images/MyPortfolio.jpg"
+import myProfilephoto from "../images/main_photo.jpg"
 import "./Toppage.css"
 import Footer from './Footer'
 import MyInfoEach from './MyInfoEach'
 import Nav from './nav/Nav'
-import MainTitle from './MainTitle'
-import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
+
 
 
 const Toppage = () => {
@@ -16,8 +15,9 @@ const Toppage = () => {
           <title>yuto portfolio</title>
         </Helmet>
         <Nav/>
-        <img src={myProfilephoto} className='baseImg' />
-        <MainTitle  MainTitle="My Info"  Icon={<ThumbUpAltIcon sx={{ fontSize: 70 }} />}/>
+        <div className='topPagePhoto'>
+          <img src={myProfilephoto} className='baseImg' alt='shasinn'/>
+        </div>
         <MyInfoEach />
         <Footer />
     </div>
