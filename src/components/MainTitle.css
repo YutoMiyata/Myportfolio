@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
-    border-top: 3px solid black;
+    padding:90px 0 0px;
+    margin-bottom: 40px;
     border-bottom: 3px solid black;
 }
 
@@ -13,8 +13,26 @@
 }
 
 
+/* アニメーション */
+
+.animate-main-title {
+    animation-name: animate-main-title;
+    animation-duration: 1.2s;
+}
+
+
+@keyframes animate-main-title {
+    0% {
+        transform-origin: center;
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
 @media(max-width:430px) {
     .MainTitle h1{
-        font-size: 45px;
+        font-size: 40px;
     }   
 }

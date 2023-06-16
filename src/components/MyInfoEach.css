@@ -13,17 +13,52 @@
     color: white;
     text-align: center;
     padding: 100px 0 140px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .profile {
-    background-image: url(../images/top_profile_photo.png);
+    /* background-image: url(../images/top_profile_photo.png); */
+    background-color: rgb(28, 28, 28);
 }
 
 .works {
     background-image: url(../images/top_works_photo.png);
 }
 
+
+ /* textカラーのアニメーション */
+.animate-text-to-right{
+    animation-name: animate-text-right;
+    animation-duration: 3s;
+}
+
+@keyframes animate-text-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+.animate-text-to-left{
+    animation-name: animate-text-left;
+    animation-duration: 5s;
+}
+
+@keyframes animate-text-left {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 
 
 
@@ -34,7 +69,8 @@
 
     }
     .profile {
-        background-image: url(../images/top_profile_photo_mobile.png);
+        /* background-image: url(../images/top_profile_photo_mobile.png); */
+        background-color: rgb(28, 28, 28);
     }
     
     .works {
@@ -42,12 +78,14 @@
     }
 
     .MyInfoTitle {
-        font-size: 50px;
+        font-size: 40px;
         padding: 80px 0 30px;
     }
     
     .MyInfoParagraph {
+        width: 80%;
         padding: 50px 0 100px;
         font-size: 18px;
+        margin: 0 auto;
     }
 }

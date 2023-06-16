@@ -3,7 +3,7 @@ import "./MainTitle.css"
 
 const MainTitle = ({MainTitle , Icon}) => {
   return (
-    <div className='MainTitle'> 
+    <div className='MainTitle animate-main-title'> 
       {Icon}
       <h1>{MainTitle}</h1>
     </div>
