@@ -46,7 +46,7 @@
 
 .animate-text-to-left{
     animation-name: animate-text-left;
-    animation-duration: 5s;
+    animation-duration: 3s;
 }
 
 @keyframes animate-text-left {

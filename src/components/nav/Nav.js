@@ -31,6 +31,22 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
 
+  //スクロール調査
+
+  // const [scrollAmount, setScrollAmount] = useState(0);
+
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const amount = window.scrollY;
+  //     setScrollAmount(amount);
+  //   };
+
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
+
   return (
     <nav>
         <div>
@@ -38,6 +54,7 @@ const Nav = () => {
                 <img className='nav_img' src={myLogo}/>
             </Link>
         </div>
+        {/* <div><p>スクロール量: {scrollAmount}px</p></div>; */}
         {isMobile ? (
         <div>
             <div onClick={toggleMenu} className='humberger'>

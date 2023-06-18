@@ -3,7 +3,7 @@ import "./SelfIntroductionContent.css"
 
 const SelfIntroductionContent = () => {
   return (
-    <div className='SelfIntroductionContent'>
+    <div className='SelfIntroductionContent self-introduction-animate'>
         <table className='SelfIntroductionTable'>
             <tr>
                 <th className='SelfIntroductionTitle'>名前</th>

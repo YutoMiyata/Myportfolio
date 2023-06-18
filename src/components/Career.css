@@ -39,6 +39,26 @@
     text-align: center;
 }
 
+
+/* アニメーション */
+
+.animate-career{
+    animation-name: animate-career-right;
+    animation-duration: 3s;
+}
+
+@keyframes animate-career-right {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
 @media(max-width:430px) {
     .career {
         height: 600px;
