@@ -7,13 +7,14 @@ import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-router-dom';
 import ButtonRectangle from '../../ButtonRectangle';
 import SubTitle from '../../SubTitle';
+import WorksTitle from './WorksTitle';
 
 
 const WorksCafeToDo = () => {
   return (
     <div>
       <Nav />
-      <h1>カフェToDOシステム</h1>
+      <WorksTitle titleName="カフェtodoシステム" />
         <div className='cafeToDoImgBlock'>
             <div className='cafeToDoImg'>
                 <img src={cafe_to_do_big}/>

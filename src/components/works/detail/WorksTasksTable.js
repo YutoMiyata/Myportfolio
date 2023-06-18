@@ -7,13 +7,14 @@ import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-router-dom';
 import ButtonRectangle from '../../ButtonRectangle';
 import SubTitle from '../../SubTitle';
+import WorksTitle from './WorksTitle';
 
 
 const WorksTasksTable = () => {
   return (
     <div>
       <Nav />
-        <h1>タスク早見表</h1>
+        <WorksTitle titleName="タスク早見表" />
         <div className='taskTableImgBlock'>
             <div className='taskTableImg'>
                 <img src={cafe_tasks_management}/>

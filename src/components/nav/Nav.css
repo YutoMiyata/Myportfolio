@@ -36,6 +36,93 @@ nav ul li p:hover{
 }
 
 
+/* ハンバーガー対応 */
+
+
+/* 閉じれいる時のアイコン */
+.close-icon {
+    width: 40px;
+    height: 40px;
+    /* font-size: 35px;  */
+    color: white; /* アイコンの色を指定 */
+    background-color: black;
+    padding: 10px;
+  }
+
+/* 開いている時のアイコン */
+  .open-icon {
+    width: 40px;
+    height: 40px;
+    color: white; /* アイコンの色を指定 */
+    background-color: black;
+    padding: 10px;
+    z-index: 999;
+  }
+
+  .humberger {
+    z-index: 999;
+    width: 60px;
+    height: 60px;
+    margin: 0px 20px 0 auto;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+
+
+/* 開いている時の状態 */
+
+.is-open {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
+width: 100%;
+height: 100vh;
+color: white;
+background-color: black;
+}
+
+.is-open-list {
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-80%,-50%);
+padding: 0;
+z-index: 99;
+display: block;
+margin-right: 0;
+padding: 0;
+}
+
+.is-open-list li {
+    padding: 20px 0;
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    }
+
+
+/* アニメーション */
+
+.animate-nav {
+    animation-name: animate-nav;
+    animation-duration: 1.5s;
+}
+
+@keyframes animate-nav {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
 @media(max-width:545px) {
     nav ul li {
         font-size: 10px;

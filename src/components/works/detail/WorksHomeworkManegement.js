@@ -7,12 +7,13 @@ import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { Link } from 'react-router-dom';
 import ButtonRectangle from '../../ButtonRectangle';
 import SubTitle from '../../SubTitle';
+import WorksTitle from './WorksTitle';
 
 const WorksHomeworkManegement = () => {
   return (
     <div>
       <Nav />
-        <h1>宿題管理システム</h1>
+      <WorksTitle titleName="宿題管理システム" />
           <div className='homeworkManagementImgBlock'>
               <div className='homeworkManagementImg'>
                   <img src={homework_management_laravel_big}/>
