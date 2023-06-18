@@ -5,7 +5,7 @@ import SelfIntroductionSection from './SelfIntroductionSection'
 
 const SelfIntroduction = () => {
   return (
-    <div>
+    <div className='self-introduction'>
       <SubTitle name="自己紹介"/>
       <SelfIntroductionSection />
     </div>

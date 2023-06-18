@@ -5,6 +5,7 @@ import Nav from './nav/Nav';
 import MainTitle from './MainTitle';
 import SelfIntroduction from './SelfIntroduction';
 import ProgramingLearning from './ProgramingLearning';
+import Career from './Career';
 
 
 
@@ -16,6 +17,7 @@ const Profile = () => {
         <Nav />
         <MainTitle  MainTitle="PROFILE"  Icon={<PersonIcon sx={{ fontSize: 70 }} />}/>
         <SelfIntroduction />
+        <Career />
         <ProgramingLearning />
         <Footer />
     </div>

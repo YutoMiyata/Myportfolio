@@ -19,7 +19,7 @@ const SelfIntroductionContent = () => {
             </tr>
             <tr>
                 <td className='SelfIntroductionTitle'>出身大学</td>
-                <td className='SelfIntroductionSentence'> 法政大学スポーツ健康学部</td>
+                <td className='SelfIntroductionSentence'> 法政大学</td>
             </tr>
     </table>
     </div>
